@@ -1,0 +1,12 @@
+{
+    "bins": [
+        { "id": 1, "location": [40.7128, -74.0060] },
+        { "id": 2, "location": [40.7138, -74.0050] },
+        { "id": 3, "location": [40.7148, -74.0040] }
+    ],
+    "connections": [
+        { "from": 1, "to": 2, "distance": 1.2 },
+        { "from": 2, "to": 3, "distance": 0.8 },
+        { "from": 1, "to": 3, "distance": 2.0 }
+    ]
+}

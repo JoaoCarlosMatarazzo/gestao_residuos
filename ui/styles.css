@@ -1,0 +1,89 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Contêiner principal */
+#dashboard {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Títulos */
+h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #34495e;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 5px;
+}
+
+/* Lista de lixeiras */
+#bins {
+    list-style-type: none;
+    margin: 15px 0;
+    padding: 0;
+}
+
+#bins li {
+    background: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+/* Rota otimizada */
+#route {
+    font-size: 1em;
+    background: #dfe6e9;
+    border: 1px solid #b2bec3;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* Estilo de botões (opcional) */
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #27ae60;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #2ecc71;
+}
